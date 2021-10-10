@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    &:focus{
+        outline: 0;
+    }
+}
+
+.cookie-banner{
+    --color1:#10182f;
+    --color2:#fff;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -12px rgba(#001D93, .15) ;
+   &.style1{
+         width: 410px;
+         height: 196px; 
+         padding: 35px 35px 25px;
+         background: var(--color1);
+    p{
+        font-size: 16px;
+        line-height: 25px;
+        color: var(--color2);
+        a{
+            display: block;
+            text-decoration: underline;
+            color: var(--color2);
+        }
+    }  
+       .actions{
+           display: flex;
+           justify-content: flex-end;
+           margin-top: 25px;
+           a{
+            height: 36px;
+            display: flex ;
+            align-items: center;
+            padding: 0 20px;
+            border-radius: 5px;
+            font-size: 11px;
+            font-weight: bold;
+            color: var(--color2);
+            &.btn{
+                background: var(--color2);
+                color:var(--color1);
+            }
+        }
+       }
+   }
+   &.style2{
+       width: 410px;
+       height: 304px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       padding: 39px 40px 35px;
+       .icon{
+           text-align: center;
+       }
+       p{
+           font-size: 16px;
+           line-height: 25px;
+            color: var(--color1);
+            text-align: center;
+            a{
+                height: 36px;
+                display: flex ;
+                align-items: center;
+                padding: 0 20px;
+                border-radius: 5px;
+                font-size: 11px;
+                font-weight: bold;
+                color: var(--color1);
+            } 
+        }
+            .actions{
+                text-align: center;
+                a{
+                    display: inline-block;
+                    width: 110px;
+                    height: 50px;
+                    line-height: 50px;
+                    background: var(--color1);
+                    color: var(--color2);
+                    border-radius: 5px;
+                }
+            }
+      
+   }
+   &.style3{
+       background: var(--color1);
+    width: 410px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 39px 40px 35px;
+    .icon{
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+        line-height: 25px;
+         color: var(--color2);
+         text-align: center;
+         a{
+             height: 36px;
+             display: flex ;
+             align-items: center;
+             padding: 0 20px;
+             border-radius: 5px;
+             font-size: 11px;
+             font-weight: bold;
+             color: var(--color2);
+         } 
+     }
+         .actions{
+             text-align: center;
+             a{   
+                 border-radius: 5px;
+                 display: inline-block;
+                 width: 110px;
+                 height: 50px;
+                 line-height: 50px;
+                 background: var(--color2);
+                 color: var(--color1);
+             }
+         }
+   
+}
+&.style4{
+    background: #123433;
+ width: 710px;
+ height: 204px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ padding: 39px 40px 35px;
+ .icon{
+     text-align: center;
+ }
+ p{
+     font-size: 16px;
+     line-height: 25px;
+      color: var(--color2);
+      text-align: left;
+      
+      a{  
+          height: 36px;
+          display: flex ;
+          align-items: center;
+          padding: 0 20px;
+          border-radius: 5px;
+          font-size: 11px;
+          font-weight: bold;
+          color: var(--color2);
+          margin-top: -18px;
+      } 
+  }
+      .actions{
+          text-align: center;
+          a{   
+              border-radius: 5px;
+              display: inline-block;
+              width: 110px;
+              height: 50px;
+              line-height: 50px;
+              background: var(--color2);
+              color: var(--color1);
+              
+          }
+      }
+
+}
+}
