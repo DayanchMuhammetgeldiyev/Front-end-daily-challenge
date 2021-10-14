@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+list-style: none;
+border: none;
+text-decoration: none;
+box-sizing: border-box;
+-webkit-overflow-scrolling: touch;
+font-family: 'Prompt', sans-serif;
+
+
+&:focus{
+    outline: 0;
+}
+}
+
+body{
+    background: #E7EAFB;
+}
+
+.job-item{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 60%;
+    height: 50%;
+    background: #fff;
+    box-shadow: 0 21px 87px -38px rgba(#5062D3, .5);
+    border-radius: 30px;
+    a{  
+     padding: 50px;
+     display: flex;
+     flex-direction: column;
+    .title{
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #111127;
+    font-weight: bold;
+    }
+    .alt-title{
+        color: rgba(#111127, .7);
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    p{
+        font-size: 18px;
+        color: #111127;
+        line-height: 26px;
+        margin-bottom: 25px;
+    }
+    .tags{
+        display: flex;
+        flex-wrap: wrap;
+        span{
+            padding: 7px 20px;
+            background: #E7EAFB;
+            border-radius: 30px;
+            font-size: 14px;
+            color: #111127c4;
+            margin: 0 10px 10px 0;
+            &:hover{
+                background: darken(#E7EAFB, 3%);
+            }
+        }
+    }
+  }
+}
+
+.job-items{
+    margin-left:50px;
+    margin-top: 50px;
+    width: 70%;
+    height: 20%;
+    display: flex;
+    flex-direction:column ;
+    li{
+        margin-bottom:15px;
+        a{
+            display: flex;
+            background: #fff;
+            border-radius: 10px;
+            border:1px;
+            padding: 20px 45px 20px 20px;
+            transform: 300ms transform;
+            &:hover{
+                transform: scale(1.04);
+            }
+            .avatar{
+                min-width: 64px;
+                height: 64px;
+                margin-right: 15px;
+                border-radius: 50%;
+                font-size: 30px;
+                font-weight: bold;
+                display: grid;
+                place-items: center;
+                border:2px solid #E7EAFB;
+            }
+            .details{
+                display: flex;
+                flex-direction: column;
+                .title{
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #111127;
+                    margin-bottom: 2px;
+                }
+                .position{
+                    font-size: 16px;
+                    color: rgba(#111127, .7);
+                }
+            }
+            .location{
+                margin-left: auto;
+                align-items: center;
+                display: flex;
+                font-size: 16px;
+                color:#11112771;
+            }
+            img{
+                margin-right: 5px;
+            }
+        }
+    }
+}
