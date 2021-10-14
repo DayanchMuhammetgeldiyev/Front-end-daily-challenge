@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+list-style: none;
+border: none;
+text-decoration: none;
+box-sizing: border-box;
+-webkit-overflow-scrolling: touch;
+font-family: 'Prompt', sans-serif;
+
+
+&:focus{
+    outline: 0;
+}
+}
+body{
+    background: #F4F7FD;
+}
+
+.carouselcard{
+    background:#fff;
+    width: 367px;
+    height: 714px;
+    border-radius: 25px;
+    margin: 100px;
+    img{
+        width: 287px;
+        height: 180px;
+        overflow:visible;
+        border-radius: 23px;
+        margin-left: 40px;
+        margin-top:40px;
+        box-shadow: #6e6bff7e 0px 5px 0px;
+    }
+.text{
+    margin-top:10px;
+    span{
+        font-size: 14px;
+        text-decoration:line-through;
+        margin-left:40px;
+    }
+}
+.text-price {
+    
+      span:first-child  {
+        font-size: 22px;
+        font-weight: bold; 
+        margin-left:40px;
+      }
+      span:last-child{
+          font-size: 18px;
+          color: #fff;
+          background: #639B1B;
+          border-radius: 20px;
+          text-align: center;
+      }
+}
+.button{
+    padding-top: 30px;
+    button:first-child{
+        width: 287px;
+        height: 55px;
+        background: #6E6BFF;
+        color: #fff;
+        margin-left: 40px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        font-size: 16px;
+    }
+    button:last-child{
+        width: 287px;
+        height: 55px;
+        background: #E9E9FF;
+        color: #6E6BFF;
+        margin-left: 40px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+.textbtn{
+    font-size: 14px;
+    color: #464A67;
+     padding-left: 70px;
+     padding-top: 20px;
+}
+.lastcard{
+    padding: 50px;
+     
+    h4{
+        font-size: 16px;
+        font-weight: normal;
+        color:#191E45;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    ol li{
+        color: #191E45;
+        text-decoration: solid;
+    }
+
+}
+}
