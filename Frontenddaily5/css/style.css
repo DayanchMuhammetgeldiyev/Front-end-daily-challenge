@@ -1,0 +1,1331 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Prompt', sans-serif;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  background: #dfd6d6;
+}
+
+body .row {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.first-button {
+  width: 458px;
+  height: 805px;
+  border: 1px;
+  border-radius: 5px;
+  border-style: dotted;
+  margin-left: 52px;
+  margin-top: 55px;
+}
+
+.first-button .firstgroup .button1 {
+  width: 132px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.first-button .firstgroup .button2 {
+  width: 139px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: list-item;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.first-button .firstgroup .button2:hover {
+  background: royalblue;
+}
+
+.first-button .firstgroup .button3 {
+  width: 141px;
+  height: 50px;
+  background: #9FA4B0;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: list-item;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.first-button .firstgroup .button4 {
+  width: 137px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #7B61FF;
+}
+
+.first-button .secondgroup {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 400px;
+  margin-top: -320px;
+}
+
+.first-button .secondgroup .button5 {
+  width: 132px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.first-button .secondgroup .button6 {
+  width: 139px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.first-button .secondgroup .button6:hover {
+  background: royalblue;
+}
+
+.first-button .secondgroup .button7 {
+  width: 141px;
+  height: 50px;
+  background: #9FA4B0;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.first-button .secondgroup .button8 {
+  width: 137px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #7B61FF;
+}
+
+.first-button .thirdgroup {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 50px;
+}
+
+.first-button .thirdgroup .button9 {
+  width: 132px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.first-button .thirdgroup .button10 {
+  width: 132px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.first-button .thirdgroup .button11 {
+  width: 132px;
+  height: 50px;
+  background: #9FA4B0;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.first-button .thirdgroup .button12 {
+  width: 132px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #7B61FF;
+}
+
+.first-button .fourthgroup {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 400px;
+  margin-top: -320px;
+}
+
+.first-button .fourthgroup .button13 {
+  width: 169px;
+  height: 55px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.first-button .fourthgroup .button14 {
+  width: 169px;
+  height: 55px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.first-button .fourthgroup .button15 {
+  width: 169px;
+  height: 55px;
+  background: #9FA4B0;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.first-button .fourthgroup .button16 {
+  width: 169px;
+  height: 55px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #7B61FF;
+}
+
+.second-button {
+  width: 458px;
+  height: 805px;
+  border: 1px;
+  border-radius: 5px;
+  border-style: dotted;
+  margin-left: 52px;
+  margin-top: 55px;
+}
+
+.second-button .firstgroup .button1 {
+  width: 132px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.second-button .firstgroup .button2 {
+  width: 139px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: list-item;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.second-button .firstgroup .button2:hover {
+  background: royalblue;
+}
+
+.second-button .firstgroup .button3 {
+  width: 141px;
+  height: 50px;
+  background: #9FA4B0;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: list-item;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.second-button .firstgroup .button4 {
+  width: 137px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.second-button .secondgroup {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 400px;
+  margin-top: -320px;
+}
+
+.second-button .secondgroup .button5 {
+  width: 132px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.second-button .secondgroup .button6 {
+  width: 139px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.second-button .secondgroup .button6:hover {
+  background: royalblue;
+}
+
+.second-button .secondgroup .button7 {
+  width: 141px;
+  height: 50px;
+  background: #9FA4B0;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.second-button .secondgroup .button8 {
+  width: 137px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.second-button .thirdgroup {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 50px;
+}
+
+.second-button .thirdgroup .button9 {
+  width: 132px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.second-button .thirdgroup .button10 {
+  width: 132px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.second-button .thirdgroup .button11 {
+  width: 132px;
+  height: 50px;
+  background: #9FA4B0;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.second-button .thirdgroup .button12 {
+  width: 132px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.second-button .fourthgroup {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 400px;
+  margin-top: -320px;
+}
+
+.second-button .fourthgroup .button13 {
+  width: 169px;
+  height: 55px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.second-button .fourthgroup .button14 {
+  width: 169px;
+  height: 55px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.second-button .fourthgroup .button15 {
+  width: 169px;
+  height: 55px;
+  background: #9FA4B0;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.second-button .fourthgroup .button16 {
+  width: 169px;
+  height: 55px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.third-button {
+  width: 458px;
+  height: 805px;
+  border: 1px;
+  border-radius: 5px;
+  border-style: dotted;
+  margin-left: 52px;
+  margin-top: 55px;
+}
+
+.third-button .firstgroup .button1 {
+  width: 132px;
+  height: 50px;
+  background: transparent;
+  color: black;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.third-button .firstgroup .button2 {
+  width: 139px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: list-item;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.third-button .firstgroup .button2:hover {
+  background: royalblue;
+}
+
+.third-button .firstgroup .button3 {
+  width: 141px;
+  height: 50px;
+  background: transparent;
+  color: black;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: list-item;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.third-button .firstgroup .button4 {
+  width: 137px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #7B61FF;
+}
+
+.third-button .secondgroup {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 400px;
+  margin-top: -320px;
+}
+
+.third-button .secondgroup .button5 {
+  width: 132px;
+  height: 50px;
+  background: transparent;
+  color: black;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.third-button .secondgroup .button6 {
+  width: 139px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.third-button .secondgroup .button6:hover {
+  background: royalblue;
+}
+
+.third-button .secondgroup .button7 {
+  width: 141px;
+  height: 50px;
+  background: transparent;
+  color: black;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.third-button .secondgroup .button8 {
+  width: 137px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #7B61FF;
+}
+
+.third-button .thirdgroup {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 50px;
+}
+
+.third-button .thirdgroup .button9 {
+  width: 132px;
+  height: 50px;
+  background: transparent;
+  color: black;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.third-button .thirdgroup .button10 {
+  width: 132px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.third-button .thirdgroup .button11 {
+  width: 132px;
+  height: 50px;
+  background: transparent;
+  color: black;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.third-button .thirdgroup .button12 {
+  width: 132px;
+  height: 50px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #7B61FF;
+}
+
+.third-button .fourthgroup {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 400px;
+  margin-top: -320px;
+}
+
+.third-button .fourthgroup .button13 {
+  width: 169px;
+  height: 55px;
+  background: transparent;
+  color: black;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.third-button .fourthgroup .button14 {
+  width: 169px;
+  height: 55px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+}
+
+.third-button .fourthgroup .button15 {
+  width: 169px;
+  height: 55px;
+  background: transparent;
+  color: black;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.third-button .fourthgroup .button16 {
+  width: 169px;
+  height: 55px;
+  background: #09183F;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  border: 1px solid #7B61FF;
+}
+
+.first-circle {
+  width: 380px;
+  height: 188px;
+  border: 1px;
+  border-radius: 5px;
+  border-style: dotted;
+  margin-left: 20px;
+}
+
+.first-circle .firstgroup {
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
+.first-circle .firstgroup .img1 {
+  width: 50px;
+  height: 50px;
+  background: #09183F;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.first-circle .firstgroup .img1 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.first-circle .firstgroup .img2 {
+  width: 50px;
+  height: 50px;
+  background: #09183F;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.first-circle .firstgroup .img2 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.first-circle .firstgroup .img3 {
+  width: 50px;
+  height: 50px;
+  background: #9FA4B0;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.first-circle .firstgroup .img3 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.first-circle .firstgroup .img4 {
+  width: 50px;
+  height: 50px;
+  background: #09183F;
+  border-radius: 50px;
+  margin-left: 20px;
+  border: 1px solid #4F56FF;
+}
+
+.first-circle .firstgroup .img4 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.first-circle .secondgroup {
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.first-circle .secondgroup .img1 {
+  width: 63px;
+  height: 63px;
+  background: #09183F;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.first-circle .secondgroup .img1 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.first-circle .secondgroup .img2 {
+  width: 63px;
+  height: 63px;
+  background: #09183F;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.first-circle .secondgroup .img2 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.first-circle .secondgroup .img3 {
+  width: 63px;
+  height: 63px;
+  background: #9FA4B0;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.first-circle .secondgroup .img3 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.first-circle .secondgroup .img4 {
+  width: 63px;
+  height: 63px;
+  background: #09183F;
+  border-radius: 50px;
+  margin-left: 20px;
+  border: 1px solid #4F56FF;
+}
+
+.first-circle .secondgroup .img4 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-circle {
+  width: 380px;
+  height: 188px;
+  border: 1px;
+  border-radius: 5px;
+  border-style: dotted;
+  margin-left: 80px;
+}
+
+.second-circle .firstgroup {
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
+.second-circle .firstgroup .img1 {
+  width: 50px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.second-circle .firstgroup .img1 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-circle .firstgroup .img2 {
+  width: 50px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.second-circle .firstgroup .img2 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-circle .firstgroup .img3 {
+  width: 50px;
+  height: 50px;
+  background: #09183F;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.second-circle .firstgroup .img3 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-circle .firstgroup .img4 {
+  width: 50px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.second-circle .firstgroup .img4 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-circle .secondgroup {
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.second-circle .secondgroup .img1 {
+  width: 63px;
+  height: 63px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.second-circle .secondgroup .img1 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-circle .secondgroup .img2 {
+  width: 63px;
+  height: 63px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.second-circle .secondgroup .img2 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-circle .secondgroup .img3 {
+  width: 63px;
+  height: 63px;
+  background: #9FA4B0;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.second-circle .secondgroup .img3 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-circle .secondgroup .img4 {
+  width: 63px;
+  height: 63px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  border-radius: 50px;
+  margin-left: 20px;
+  border: 1px solid #4F56FF;
+}
+
+.second-circle .secondgroup .img4 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-circle {
+  width: 380px;
+  height: 188px;
+  border: 1px;
+  border-radius: 5px;
+  border-style: dotted;
+  margin-left: 60px;
+}
+
+.third-circle .firstgroup {
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
+.third-circle .firstgroup .img1 {
+  width: 50px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.third-circle .firstgroup .img1 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-circle .firstgroup .img2 {
+  width: 50px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.third-circle .firstgroup .img2 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-circle .firstgroup .img3 {
+  width: 50px;
+  height: 50px;
+  background: #09183F;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.third-circle .firstgroup .img3 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-circle .firstgroup .img4 {
+  width: 50px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.third-circle .firstgroup .img4 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-circle .secondgroup {
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.third-circle .secondgroup .img1 {
+  width: 63px;
+  height: 63px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.third-circle .secondgroup .img1 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-circle .secondgroup .img2 {
+  width: 63px;
+  height: 63px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.third-circle .secondgroup .img2 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-circle .secondgroup .img3 {
+  width: 63px;
+  height: 63px;
+  background: #9FA4B0;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.third-circle .secondgroup .img3 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-circle .secondgroup .img4 {
+  width: 63px;
+  height: 63px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74A3FF), to(#4F56FF));
+  background: linear-gradient(#74A3FF, #4F56FF);
+  border-radius: 50px;
+  margin-left: 20px;
+  border: 1px solid #4F56FF;
+}
+
+.third-circle .secondgroup .img4 img {
+  width: 27px;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */

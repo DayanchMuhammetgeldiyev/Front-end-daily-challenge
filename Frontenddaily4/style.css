@@ -110,7 +110,7 @@ body {
   margin-left: 20px;
 }
 
-.carouselcard .lastcard ol li {
+.carouselcard .lastcard ul li {
   color: #191E45;
   -webkit-text-decoration: solid;
           text-decoration: solid;
