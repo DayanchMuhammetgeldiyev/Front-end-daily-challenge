@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Prompt', sans-serif;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  background: #EEEFF6;
+}
+
+.article-footer {
+  width: 966px;
+  height: 649px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  margin-left: 317px;
+  margin-top: 275px;
+}
+
+.article-footer .sign-up {
+  width: 122px;
+  height: 40px;
+  margin-left: 110px;
+  padding-top: 81px;
+}
+
+.article-footer .sign-up h1 {
+  color: #000000;
+}
+
+.article-footer .paragraf {
+  width: 672px;
+  height: 114px;
+  margin-left: 110px;
+  padding-top: 81px;
+}
+
+.article-footer .paragraf p {
+  color: #000000;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: left;
+}
+
+.article-footer .button {
+  width: 265px;
+  height: 68px;
+  border-radius: 35px;
+  background: #2E407E;
+  margin-left: 110px;
+  margin-top: 124px;
+  padding-top: 22px;
+}
+
+.article-footer .button .text a {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.article-footer .email {
+  font-size: 16px;
+  margin-left: 120px;
+  margin-top: 20px;
+  color: #2E407E;
+}
+
+.article-footer .like {
+  width: 91px;
+  height: 52px;
+  background: #EEEFF6;
+  border-radius: 36px;
+  margin-top: 120px;
+  margin-left: 120px;
+}
+
+.article-footer .like button {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.article-footer .like button img {
+  width: 32px;
+  height: 32px;
+}
+
+.article-footer .comment {
+  width: 91px;
+  height: 52px;
+  background: #EEEFF6;
+  border-radius: 36px;
+  margin-top: -50px;
+  margin-left: 230px;
+}
+
+.article-footer .comment button {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.article-footer .comment button img {
+  width: 32px;
+  height: 32px;
+}
+/*# sourceMappingURL=style.css.map */
