@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Comfortaa', sans-serif;
+  background: #1A2036;
+}
+
+.list-group {
+  width: 975px;
+  height: 662px;
+  border-radius: 25px;
+  position: absolute;
+  left: 250px;
+  top: 50px;
+  background: #252B42;
+}
+
+.list-group .menu-page {
+  width: 88px;
+  height: 592px;
+  background: #1A2036;
+  border-radius: 20px;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+.list-group .menu-page img:nth-child(2) {
+  background: #242B42;
+  width: 58px;
+  height: 58px;
+  border-radius: 10px;
+}
+
+.list-group .menu-page .menu img {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: 120px;
+  width: 30px;
+  display: list-item;
+  margin-left: 30px;
+  margin-top: 20px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.list-group .groups {
+  position: absolute;
+  left: 190px;
+  top: 80px;
+}
+
+.list-group .groups .img {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.list-group .groups h2 {
+  color: #B1B9D8;
+  display: inline-block;
+  left: 20px;
+}
+
+.list-group .fourthgen {
+  width: 52px;
+  height: 52px;
+  display: inline;
+  position: relative;
+  left: 850px;
+  top: 100px;
+}
+
+.list-group .fourthgen img:first-child {
+  background: #1A2036;
+  border-radius: 5px;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #1A2036;
+}
+
+.list-group .fourthgen img:nth-child(2) {
+  border-radius: 5px;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #1A2036;
+}
+
+.list-group .container .row .col {
+  width: 173px;
+  height: 188px;
+  float: left;
+  margin-top: 166px;
+  margin-left: 170px;
+  background: #2E3650;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.list-group .container .row .col .img {
+  margin-top: 50px;
+  margin-left: 55px;
+}
+
+.list-group .container .row .col .span {
+  font-size: 18px;
+  color: #B1B9D8;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.list-group .container .row .col1 {
+  width: 173px;
+  height: 188px;
+  float: left;
+  margin-top: 166px;
+  margin-left: 70px;
+  background: #1A2036;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.list-group .container .row .col1 .img {
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.list-group .container .row .col1 .span {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 900;
+  color: #B1B9D8;
+}
+/*# sourceMappingURL=style.css.map */
