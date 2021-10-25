@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  height: 120px;
+  background: #FCFCFF;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar .container-fluid .navbar-brand {
+  color: #000000;
+  font-weight: 900;
+}
+
+.navbar ul {
+  margin-left: 400px;
+  margin-bottom: 100px;
+}
+
+.navbar ul li {
+  position: relative;
+  float: left;
+  padding-left: 20px;
+  list-style: none;
+  font-size: 16px;
+  bottom: 22px;
+}
+
+.navbar .notification {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  right: 90px;
+  top: 20px;
+}
+
+.navbar .profil-img {
+  position: absolute;
+  right: 300px;
+  top: 20px;
+}
+
+.navbar .profil-img img {
+  width: 38px;
+  height: 38px;
+  border-radius: 90%;
+  overflow: hidden;
+}
+
+.navbar .button-upload {
+  position: absolute;
+  right: 130px;
+  top: 15px;
+}
+
+.navbar .button-upload button {
+  width: 152px;
+  height: 44px;
+  background: #202142;
+  color: #FFF;
+  border-radius: 10px;
+  border: 1px;
+}
+
+.menu2 .settings h2 {
+  margin-left: 216px;
+  margin-top: 100px;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.menu2 .menu-settings {
+  display: -ms-grid;
+  display: grid;
+  padding-left: 220px;
+  padding-top: 30px;
+}
+
+.menu2 .menu-settings a {
+  padding-top: 25px;
+  text-decoration: none;
+  color: #202142;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.menu3 {
+  position: absolute;
+  left: 550px;
+  top: 300px;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.menu3 .account-settings h1 {
+  font-size: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu3 .email {
+  padding-top: 30px;
+}
+
+.menu3 .email span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.menu3 .email-adress {
+  padding-top: 20px;
+}
+
+.menu3 .email-adress span {
+  font-size: 18px;
+}
+
+.menu3 .email-adress a {
+  padding-left: 50px;
+}
+
+.menu3 .email-adress hr {
+  margin-top: 50px;
+}
+
+.menu3 .password span:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu3 .password a {
+  padding-left: 320px;
+}
+
+.menu3 .input-password {
+  padding-right: 20px;
+}
+
+.menu3 .input-password input:first-child {
+  display: inline;
+  margin-top: 80px;
+  width: 277px;
+  height: 74px;
+  border-radius: 10px;
+  border: 1px solid #C3C3E4;
+  padding-left: 20px;
+}
+
+.menu3 .input-password input:nth-child(2) {
+  display: inline;
+  margin-top: 80px;
+  width: 277px;
+  height: 74px;
+  border-radius: 10px;
+  border: 1px solid #C3C3E4;
+  padding-left: 20px;
+}
+
+.menu3 .reset {
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+.menu3 .save-button {
+  margin-top: 50px;
+}
+
+.menu3 .save-button button {
+  border: 1px solid #202142;
+  border-radius: 10px;
+  height: 54px;
+  color: #FFFFFF;
+  width: 183px;
+  background: #202142;
+  font-weight: 600;
+}
+
+.menu3 .delete {
+  margin-top: 50px;
+}
+
+.menu3 .delete h2 {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.menu3 .delete span {
+  padding-top: 50px;
+}
+
+.menu3 .delete .delete2 {
+  margin-top: 50px;
+}
+
+.menu3 .delete .delete2 a {
+  color: #EE4878;
+}
+/*# sourceMappingURL=style.css.map */
